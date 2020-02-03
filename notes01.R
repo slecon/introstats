@@ -3,7 +3,7 @@
 ######
 
 # This loads an R object known as a data.frame
-load(url("https://git.io/fAZil"))
+load(url("https://git.io/JvGIH"))
 
 # What you see in the environment is called the 'structure' of the data
 
@@ -142,7 +142,7 @@ library(tidyverse)
 # The Titanic data set we used earlier was already well 'cleaned-up'. In most cases, obviously,
 #   your data won't come in this 'tidy' format. Rather, you will have to clean the data yourself.
 # Take the following example. The read.csv() function imports a file with comma-separated values.
-beer <- read.csv("https://git.io/fAgL0")
+beer <- read.csv("https://git.io/JvGIN")
 
 # Checking the structure of this data frame reveals that every variable is coded as numeric. While
 #   this is the correct assessment for the first four, the last variable is clearly categorical
@@ -160,7 +160,7 @@ str(beer)
 
 # For a more involved example, consider the following data adapted from Thad W. Mirer, "Economic 
 # Statistics and Econometrics", 3rd ed. (New York: Macmillan, 1995), pp. 17-22.)
-mirer <- read.table(file="https://git.io/fA2wx", 
+mirer <- read.table(file="https://git.io/JvGLv", 
                     stringsAsFactors = FALSE, comment.char = "@")
 # A look at the structure reveals that the first column (V1) was mistaken to be of character 
 #   type.
